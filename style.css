@@ -253,6 +253,13 @@ header {
 .feedback__container {
     padding-left: 10rem;
     padding-right: 10rem;
+    overflow: hidden;
+}
+.office {
+    width: 600px;
+    height: 630px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 .form__tittle {
     color: #38535D;
@@ -419,6 +426,10 @@ footer {
     .nav__list {
         margin-left: 0;
     }
+    .feedback__form {
+        margin-right: 1.875rem;
+    }
+
 }
 @media(max-width:100rem) {
     .container {
@@ -433,6 +444,9 @@ footer {
     }
     .advantages__item {
         font-size: 1.25rem;
+    }
+    .feedback__form {
+        margin-right: 1.875rem;
     }
 }
 @media (max-width: 93.75rem) {
@@ -489,7 +503,7 @@ footer {
 }
 @media (max-width: 85rem) {
     .banner {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(img/home.png);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(img/home.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         
@@ -589,6 +603,8 @@ footer {
     }
     .form__tittle {
         font-size: 1.875rem;
+        padding-left: .625rem;
+        padding-right: .625rem;
     }
 }
 @media (max-width: 43.75rem) {
@@ -699,6 +715,9 @@ footer {
     footer {
         width: 43.75rem;
     }
+    .feedback__form {
+        margin-left: 1.875rem;
+    }
 
 }
 @media (max-width: 20rem) {
@@ -717,4 +736,5 @@ footer {
     footer {
         width: 700px;
     }
+
 }
