@@ -677,6 +677,8 @@ footer {
         max-width: 37.5rem;
     }
     .feedback {
+        display: flex;
+        justify-content: center;
         width: 700px;
         
     }
@@ -694,6 +696,9 @@ footer {
         width: 100%;
         max-width: 700px;
     }
+    footer {
+        width: 43.75rem;
+    }
 
 }
 @media (max-width: 20rem) {
@@ -710,6 +715,6 @@ footer {
         justify-content: center;
     }
     footer {
-        width: 43.75rem;
+        width: 700px;
     }
 }
